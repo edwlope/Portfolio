@@ -4,296 +4,275 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-    <title>Document</title>
+    <title>Edward Lopez | Fullstack Developer</title>
   </head>
   <body>
     <div class="container">
-      <header>
-        <div>
-          <h2>[edward lopez]</h2>
+      <!-- FIXED SCROLLABLE SIDEBAR -->
+      <aside class="sidebar">
+        <div class="single-slide-container">
+          <img src="./assets/me.png" class="me" alt="Edward Lopez" />
         </div>
-        <nav>
-          <ul>
-            <li><a href="#work">Work</a></li>
-            <li><a href="#connect">Connect</a></li>
-          </ul>
-        </nav>
-      </header>
+        <div class="sidebar-top">
+          <em>[from musician to developer]</em>
+          <h1>Fullstack Developer</h1>
+          <p>
+            Bringing a bold, minimalist approach to my development and
+            automation workflows.
+          </p>
+          <div class="action-btns">
+            <a
+              href="./assets/Edward_Lopez_Resume.pdf"
+              download
+              class="btn-primary"
+            >
+              Download Resume
+            </a>
+            <a href="mailto:devxed43@outlook.com" class="btn-secondary">
+              Let's Connect
+            </a>
+          </div>
 
-      <article>
-        <div class="about-container">
-          <div class="about-copy-container">
-            <em>[from musician to developer]</em>
-            <h1>Fullstack Developer</h1>
-            <p>
-              Bringing a bold, minimalist approach to my development and
-              automation workflows.
-            </p>
-            <div class="skills-container">
-              <div class="skill-group">
-                <strong>Frontend:</strong>
-                <span>React</span>
-                <span>Streamlit</span>
+          <!-- ENHANCED SKILLS DIRECTORY -->
+          <div class="skills-directory">
+            <details class="skill-folder">
+              <summary>
+                Core Development
+                <span class="status-icon"></span>
+              </summary>
+              <div class="folder-grid">
+                <span>React</span><span>Node.js</span><span>Express</span>
+                <span>Python</span><span>MongoDB</span><span>Postman</span>
               </div>
-              <div class="skill-group">
-                <strong>Backend & Automation:</strong>
-                <span>Python</span>
-                <span>Node.js</span>
-                <span>Express</span>
+            </details>
+
+            <details class="skill-folder">
+              <summary>
+                System & Automation
+                <span class="status-icon"></span>
+              </summary>
+              <div class="folder-grid">
+                <span>AppleScript</span><span>OS Library</span
+                ><span>Subprocess</span> <span>Shutil</span><span>Pathlib</span
+                ><span>I/O</span>
               </div>
-              <div class="skill-group">
-                <strong>Database:</strong>
-                <span>MongoDB</span>
+            </details>
+
+            <details class="skill-folder">
+              <summary>
+                Data & Scraping
+                <span class="status-icon"></span>
+              </summary>
+              <div class="folder-grid">
+                <span>BeautifulSoup4</span><span>Requests</span
+                ><span>Pandas</span> <span>Regex</span><span>HTML.parser</span
+                ><span>Exiftool</span>
               </div>
-              <div class="skill-group">
-                <strong>Testing & API:</strong>
-                <span>Postman</span>
+            </details>
+
+            <details class="skill-folder">
+              <summary>
+                Utilities & Env
+                <span class="status-icon"></span>
+              </summary>
+              <div class="folder-grid">
+                <span>Dotenv</span><span>Secrets Library</span
+                ><span>Streamlit</span>
               </div>
-              <div class="skill-group">
-                <strong>Libraries & Data:</strong>
-                <span>Regex</span>
-                <span>BeautifulSoup4</span>
-                <span>Requests</span>
-                <span>Pandas</span>
-                <span>AppleScript</span>
-                <span>Exiftool</span>
-                <span>OS Library</span>
-                <span>Shutil</span>
-                <span>I/O</span>
-              </div>
-              <div class="skill-group">
-                <strong>Other:</strong>
-                <span>HTML.parser</span>
-                <span>Dotenv</span>
-                <span>Subprocess</span>
-                <span>Secrets Library</span>
-                <span>Pathlib</span>
-              </div>
-            </div>
+            </details>
           </div>
         </div>
-      </article>
+      </aside>
 
+      <!-- MAIN GALLERY GRID -->
       <main id="work">
+        <!-- Project 1 -->
         <section>
-          <video
-            autoplay
-            preload="none"
-            muted
-            loop
-            src="./assets/Sanitized Sales Dashboard.mov"
-          ></video>
-          <div>
-            <h2>Data-Sanitizer-Sales-Dashboard</h2>
-            <p>
-              A local tool that takes messy, "dirty" Excel/CSV data and cleans
-              it up for a dashboard without leaking private customer info.
-            </p>
-            <div class="tech-used">
-              <h3>Technologies used:</h3>
-              <ul class="tech-list">
-                <li>Python</li>
-                <li>Streamlit</li>
-                <li>Regex</li>
-              </ul>
-            </div>
-            <div class="btns">
-              <a
-                target="_blank"
-                href="https://github.com/edwlope/Data-Sanitizer-Sales-Dashboard"
-                >Source Code</a
-              >
-            </div>
+          <div class="video-container">
+            <video
+              autoplay
+              muted
+              loop
+              playsinline
+              src="./assets/Sanitized Sales Dashboard.mov"
+            ></video>
+          </div>
+          <h2>Data Sanitized Dashboard</h2>
+          <p>
+            A local tool that takes messy, "dirty" Excel/CSV data and cleans it
+            up for a dashboard without leaking private customer info.
+          </p>
+          <ul class="tech-list">
+            <li>Python</li>
+            <li>Streamlit</li>
+            <li>Regex</li>
+          </ul>
+          <div class="btns">
+            <a
+              target="_blank"
+              href="https://github.com/edwlope/Data-Sanitizer-Sales-Dashboard"
+              >Source Code</a
+            >
           </div>
         </section>
 
+        <!-- Project 2 -->
         <section>
-          <video
-            autoplay
-            preload="none"
-            muted
-            loop
-            src="./assets/macOS Desktop News.mov"
-          ></video>
-          <div>
-            <h2>macOS Native News</h2>
-            <p>
-              A macOS-integrated Python script that fetches the top Hacker News
-              story and displays it via a native system dialog. It uses the
-              Hacker News API to retrieve real-time data and leverages
-              AppleScript to provide an interactive interface for viewing
-              previews and opening articles directly in the browser.
-            </p>
-            <div class="tech-used">
-              <h3>Technologies used:</h3>
-              <ul class="tech-list">
-                <li>AppleScript</li>
-                <li>Python</li>
-                <li>Regex</li>
-                <li>Subprocess</li>
-                <li>Requests</li>
-              </ul>
-            </div>
-            <div class="btns">
-              <a
-                target="_blank"
-                href="https://github.com/edwlope/macOs-Native-News"
-                >Source Code</a
-              >
-            </div>
+          <div class="video-container">
+            <video
+              autoplay
+              muted
+              loop
+              playsinline
+              src="./assets/macOS Desktop News.mov"
+            ></video>
+          </div>
+          <h2>macOS Native News</h2>
+          <p>
+            A macOS-integrated Python script that fetches Hacker News stories
+            and displays them via native system dialogs using AppleScript.
+          </p>
+          <ul class="tech-list">
+            <li>AppleScript</li>
+            <li>Python</li>
+            <li>Regex</li>
+            <li>Subprocess</li>
+            <li>Requests</li>
+          </ul>
+          <div class="btns">
+            <a
+              target="_blank"
+              href="https://github.com/edwlope/macOs-Native-News"
+              >Source Code</a
+            >
           </div>
         </section>
 
+        <!-- Project 3 -->
         <section>
-          <video
-            class="hacker-vid"
-            autoplay
-            preload="none"
-            muted
-            loop
-            src="./assets/MongoDB.mov"
-          ></video>
-          <div>
-            <h2>Backend: Mongo(CRUD)</h2>
-            <p>
-              A modular, straightforward RESTful API designed with Postman to
-              manage and test product inventory. Built with Node.js and Express,
-              it connects to a MongoDB database to securely handle all the
-              "behind-the-scenes" work of creating, reading, updating, and
-              deleting items in a collection
-            </p>
-            <div class="tech-used">
-              <h3>Technologies used:</h3>
-              <ul class="tech-list">
-                <li>MongoDB</li>
-                <li>Node.js</li>
-                <li>Express</li>
-                <li>Postman</li>
-                <li>Dotenv</li>
-              </ul>
-            </div>
-            <div class="btns">
-              <a
-                target="_blank"
-                href="https://github.com/edwlope/Backend-MongoCrud"
-                >Source Code</a
-              >
-            </div>
+          <div class="video-container">
+            <video
+              autoplay
+              muted
+              loop
+              playsinline
+              src="./assets/MongoDB.mov"
+            ></video>
+          </div>
+          <h2>Inventory Manager</h2>
+          <p>
+            A modular RESTful API designed with Postman to manage and test
+            product inventory using Node.js and Express.
+          </p>
+          <ul class="tech-list">
+            <li>MongoDB</li>
+            <li>Node.js</li>
+            <li>Express</li>
+            <li>Postman</li>
+            <li>Dotenv</li>
+          </ul>
+          <div class="btns">
+            <a
+              target="_blank"
+              href="https://github.com/edwlope/Backend-MongoCrud"
+              >Source Code</a
+            >
           </div>
         </section>
 
+        <!-- Project 4 -->
         <section>
-          <video
-            autoplay
-            muted
-            loop
-            preload="none"
-            src="./assets/Desktop_Organizer.mov"
-          ></video>
-          <div class="tech-used">
-            <h2>Desktop Organizer(Automation)</h2>
-            <p>
-              A Python-based automation tool that monitors a specified directory
-              and sorts files into categorized folders based on their
-              extensions.
-            </p>
-            <div>
-              <h3>Technologies used:</h3>
-              <ul class="tech-list">
-                <li>Python</li>
-                <li>OS Library</li>
-                <li>Shutil</li>
-                <li>I/O</li>
-              </ul>
-            </div>
-            <div class="btns">
-              <a
-                target="_blank"
-                href="https://github.com/edwlope/Desktop_Organizer"
-                >Source Code</a
-              >
-            </div>
+          <div class="video-container">
+            <video
+              autoplay
+              muted
+              loop
+              playsinline
+              src="./assets/Desktop_Organizer.mov"
+            ></video>
+          </div>
+          <h2>Desktop Organizer</h2>
+          <p>
+            A Python-based automation tool that monitors a directory and sorts
+            files into categorized folders based on extensions.
+          </p>
+          <ul class="tech-list">
+            <li>Python</li>
+            <li>OS Library</li>
+            <li>Shutil</li>
+            <li>I/O</li>
+          </ul>
+          <div class="btns">
+            <a
+              target="_blank"
+              href="https://github.com/edwlope/Desktop_Organizer"
+              >Source Code</a
+            >
           </div>
         </section>
 
+        <!-- Project 5 -->
         <section>
-          <video
-            autoplay
-            preload="none"
-            muted
-            loop
-            src="./assets/Wipe.mov"
-          ></video>
-          <div>
-            <h2>Ghost Mode: Wipe Your Files</h2>
-            <p>
-              A security tool that cleans your files before you share or delete
-              them. It strips away hidden digital footprints and ensures data is
-              unrecoverable.
-            </p>
-            <div class="tech-used">
-              <h3>Technologies used:</h3>
-              <ul class="tech-list">
-                <li>Python</li>
-                <li>Exiftool</li>
-                <li>Secrets Library</li>
-                <li>Pathlib</li>
-                <li>OS Library</li>
-              </ul>
-            </div>
-            <div class="btns">
-              <a
-                target="_blank"
-                href="https://github.com/edwlope/Ghost-Mode-Wipe-Your-Files"
-                >Source Code</a
-              >
-            </div>
+          <div class="video-container">
+            <video
+              autoplay
+              muted
+              loop
+              playsinline
+              src="./assets/Wipe.mov"
+            ></video>
+          </div>
+          <h2>Ghost Mode: Wipe Your Files</h2>
+          <p>
+            A security tool that cleans files before sharing/deletion by
+            stripping digital footprints and ensuring unrecoverable data.
+          </p>
+          <ul class="tech-list">
+            <li>Python</li>
+            <li>Exiftool</li>
+            <li>Secrets Library</li>
+            <li>Pathlib</li>
+            <li>OS Library</li>
+          </ul>
+          <div class="btns">
+            <a
+              target="_blank"
+              href="https://github.com/edwlope/Ghost-Mode-Wipe-Your-Files"
+              >Source Code</a
+            >
           </div>
         </section>
 
+        <!-- Project 6 -->
         <section>
-          <video
-            class="hacker-vid"
-            preload="none"
-            autoplay
-            muted
-            loop
-            src="./assets/Hacker_News.mov"
-          ></video>
-          <div>
-            <h2>CLI/Terminal: Hacker News</h2>
-            <p>
-              A fast way to check the news without getting lost in a browser.
-              Pulls top stories from Hacker News directly into your terminal.
-            </p>
-            <div class="tech-used">
-              <h3>Technologies used:</h3>
-              <ul class="tech-list">
-                <li>BeautifulSoup4</li>
-                <li>Requests</li>
-                <li>HTML.parser</li>
-              </ul>
-            </div>
-            <div class="btns">
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://github.com/edwlope/CLI-Terminal-Hacker-News"
-                >Source Code</a
-              >
-            </div>
+          <div class="video-container">
+            <video
+              autoplay
+              muted
+              loop
+              playsinline
+              src="./assets/Hacker_News.mov"
+            ></video>
+          </div>
+          <h2>CLI/Terminal: Hacker News</h2>
+          <p>
+            A fast terminal-based way to pull top stories from Hacker News
+            directly into your console without a browser.
+          </p>
+          <ul class="tech-list">
+            <li>BeautifulSoup4</li>
+            <li>Requests</li>
+            <li>HTML.parser</li>
+          </ul>
+          <div class="btns">
+            <a
+              target="_blank"
+              href="https://github.com/edwlope/CLI-Terminal-Hacker-News"
+              >Source Code</a
+            >
           </div>
         </section>
       </main>
-
-      <footer id="connect">
-        <div>
-          <h2>Let's Connect</h2>
-          <a href="mailto:devxed43@outlook.com">
-            <button>devxed43@outlook.com</button>
-          </a>
-        </div>
-      </footer>
     </div>
   </body>
 </html>
